@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: 'reguler' ;
+  src: url(../font/Graphik-Regular.woff);
+}
+
+@font-face
+{
+    font-family:'TiemposHeadline-Semibold' ;
+    src: url(../font/TiemposHeadline-Semibold.woff);
+}
+@font-face
+{
+    font-family:Graphik-Medium ;
+    src: url(../font/Graphik-Medium.ttf);
+}
+@font-face
+{
+    src: url(../font/Theinhardt-Lt.woff);
+    font-family: Theinhardt-Lt ;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+   
+}
+
+header h1
+{
+    font-family:'TiemposHeadline-Semibold' ;
+}
+
+ul
+{
+    display: flex;
+    list-style: none;
+   
+
+}
+li
+{
+  margin-left: 20px;
+    
+    
+   
+}
+a
+{
+    text-decoration: none;
+    color: #2B2C2E;
+    font-family: 'reguler' ;
+    
+}
+.button-header 
+{
+    font-size: 20px;
+    padding: 10px;
+   width: 5cm;
+    justify-content: center;
+    margin-left: 200px;
+
+ 
+}
+.button-header a
+{
+    font-family:Graphik-Medium ;
+}
+.button-header:hover 
+{
+    background:  #2B2C2E;
+
+}
+.button-header:hover a, .button-header:hover 
+{
+    color: #fff;
+}
+
+
+.get-design 
+{
+  margin-top: 10%;
+}
+.get-design h2
+{
+    text-align: center;
+    font-family: 'reguler' ;
+    font-size: 3rem;
+}
+.get-design img
+{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.class-149
+{
+    display :flex;
+    /* justify-content: space-around; */
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.div1-149
+{
+    font-size: 1.5rem;
+    margin-left: 7%;
+    font-family: 'reguler' ;
+    
+}
+.div2-149
+{
+    margin-left: 10%;
+}
+.div2-149 h1
+{
+    font-size: 4rem;
+  
+}
+.div2-149 p
+{
+    font-family: Theinhardt-Lt ;
+    color: #F1F1F4;
+}
+
+
+.deliverables
+{
+   
+    display: flex;
+    
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.div1-deliverables img
+
+{
+    
+    height: 600px;
+    padding-left: 10%;
+}
+
+.div2-deliverables
+
+{
+    padding-left: 10%;
+}
+
+
+.div2-deliverables div:nth-of-type(2){
+    margin-left: 5%;
+}
+.div2-deliverables ul{
+    list-style: none;
+    display: block;
+}
+.div2-deliverables h1{
+    font-size: 70px;
+    padding-bottom: 10%;
+    font-family: "simibold";
+}
+.div2-deliverables li{
+    font-size: 35px;
+    padding-bottom: 4%;
+    font-family: "medium";
+}
+.div2-deliverables li:nth-child(even){
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 20px;
+}
+
+
+.how-it
+{
+ 
+    width: 80%;
+    margin: 10%;
+   height: 600px;
+    margin-bottom: 30%;
+    background: #F1F1F4;
+    display: flex;
+}
+.div1-howit 
+{
+ margin-left: 5%;
+ margin-top: 5%;
+}
+
+.div1-howit li, p
+{
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+    font-family: Theinhardt-Lt ;
+  
+}
+.div1-howit h1, h2
+{
+   font-size: 42px;
+   margin-bottom: 1%;
+}
+.div2-howit img
+{
+    width: 75%;
+    margin-left: 25%;
+}
+
+.crtique
+{
+  margin-top: -15%;
+  margin-bottom: 20%;
+  background: url(../img/28.png) center / 100% no-repeat;
+}
+.crtique h1
+{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2%;
+    font-family:'TiemposHeadline-Semibold' ;
+    
+}
+.crtique p
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25%;
+    font-family: Theinhardt-Lt ;
+    color:  #9FA2A7 ;
+}
+.crtique span
+{
+    display: flex;
+  
+    margin-left: 18%;
+    font-size: 2rem;
+    font-family: Theinhardt-Lt ;
+    color:  #9FA2A7 ;
+}
+.crtique img
+{
+    width: 30%;
+    padding-left: 50%;
+    padding-top: -30%;
+    margin-top: -8%;
+}
+
+
+.have-any
+{
+    border-top: 2px solid #9FA2A7  ;
+    height: 200px;
+   text-align: center;
+   margin-bottom: 10%;
+}
+.img-costume img
+{
+    width: 7%;
+    margin-top: 5%;
+   
+}
+
+
+.have-any h3
+{
+  
+   /*  margin-bottom: 15%; */
+    font-size: 3rem;
+}
+.have-any h4
+{
+    margin-top: 6%;
+    margin-left: -5%;
+    font-size: 1rem;
+    padding-left: -1%;
+    padding-bottom: 3%;
+}
+
+
+.have-any:nth-of-type(2) h4
+{
+  /*   position: relative;
+    bottom: 10%; */
+    font-size: .1rem;
+}
+
+
+h4 a
+{
+    color:  rgb(157, 202, 157);
+}
